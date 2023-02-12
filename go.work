@@ -1,0 +1,7 @@
+go 1.19
+
+use (
+	./in-action/movies-crud
+	./in-action/todolist/task
+	./in-action/todolist/user
+)
