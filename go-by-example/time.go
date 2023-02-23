@@ -11,8 +11,10 @@ func main() {
 	now := time.Now()
 	p(now)
 	p(now.Format("20060102150405"))
-	p(now.Format("200601021504050000"))
-	p(now.Format("200601021504050700"))
+	// 如果要格式化到毫秒，微秒，纳秒，这里需要跟在小数点后面
+	// 其他格式显示0，例如：20060102150405-000000000，将格式化为 yyyyMMddHHmmss-000000000
+	p(now.Format("20060102150405.000000000"))
+	now.Nanosecond()
 
 	then := time.Date(2009, time.November, 10, 23, 0, 0, 0, time.UTC)
 	p(then)
