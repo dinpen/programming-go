@@ -1,1 +1,0 @@
-protoc -I internal/service/pb internal/service/pb/*.proto --go_out=. --go-grpc_out=.

@@ -1,7 +1,10 @@
 go 1.19
 
 use (
-	./in-action/movies-crud
-	./in-action/todolist/task
-	./in-action/todolist/user
+	./go-design-patterns
+	./go-in-action/movies-crud
+	./go-in-action/todolist/task
+	./go-in-action/todolist/user
+	./go-in-action/grpc-go
+	./go-corner
 )
