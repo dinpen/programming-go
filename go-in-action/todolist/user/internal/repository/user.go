@@ -2,7 +2,7 @@ package repository
 
 import (
 	"errors"
-	"user/internal/service"
+	service "user/internal/service/pb"
 
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"

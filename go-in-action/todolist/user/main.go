@@ -8,7 +8,7 @@ import (
 	"user/internal/handler"
 	"user/internal/repository"
 
-	"user/internal/service"
+	service "user/internal/service/pb"
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"

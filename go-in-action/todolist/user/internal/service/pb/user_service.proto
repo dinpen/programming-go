@@ -1,7 +1,6 @@
 syntax="proto3";
-package pb;
-import "user_models.proto";
-option go_package = "internal/service/pb;service";
+import "internal/service/pb/user_models.proto";
+option go_package = "user/internal/service/pb";
 
 message UserRequest{
   // @inject_tag: json:"nick_name" form:"nick_name" uri:"nick_name"

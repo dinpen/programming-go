@@ -3,7 +3,7 @@ package handler
 import (
 	"context"
 	"user/internal/repository"
-	"user/internal/service"
+	service "user/internal/service/pb"
 	"user/pkg/e"
 )
 
